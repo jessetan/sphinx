@@ -20,7 +20,7 @@ from babel.messages import pofile, mofile
 from six import string_types
 import pytest
 
-from util import (
+from sphinx.testing.util import (
     path, etree_parse, strip_escseq,
     assert_re_search, assert_not_re_search, assert_startswith, assert_node
 )
